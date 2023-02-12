@@ -1,0 +1,45 @@
+body {
+    background-color: #024054;
+    color: white;
+}
+#tribute-info::first-letter {
+color: orange;
+font-size: 28px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    
+}
+.profile {
+    width: 25.5em;
+    border: 1px solid #a2a9b1;
+    background-color: rgba(255, 255, 255, 0.705);
+    color: black;
+    padding: 0.2rem;
+    margin: 0.5em 0 0.5em 1em;
+}
+.ottop {
+    width: 220px;
+    height: 308px;
+}
+.infopicture {
+    font-size: 12px;
+    
+}
+#img-caption
+{
+    text-align: center;
+}
+#tribute-info {
+    font-size: 24px;
+    margin: 0.5em;
+}
+
+a:hover {
+    background-color: white;
+}
+footer {
+    text-align: center;
+}

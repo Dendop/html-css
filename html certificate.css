@@ -1,0 +1,50 @@
+fieldset{
+    border: 0;
+}
+body{
+    background-image: url('https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/7384f7342a0ca23306434d0dc319c6a6.png');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-color: #153674;
+    color: #fffff0;
+}
+form{
+    
+    padding: 0.5rem;
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 500px;
+    width: 60vw;
+    padding-bottom: 1rem;
+   display: block;
+   background: rgba(27, 27, 50, 0.8);
+   border-radius: 0.25em;
+}
+label {
+    display: block;
+    margin: 0.5rem;
+}
+h1,p {
+    text-align: center;
+    margin: 1am auto;
+}
+input, select, textarea {
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+}
+.toleft {
+   width: unset; 
+}
+h1 {
+    color: #ff6347;
+}
+input[type="submit"] {
+display: block;
+width: 50%;
+height: 2em;
+color: #fffff0;
+background-color: rgba(27, 27, 50, 0.8);
+border-color: white;
+margin: 1em auto 1em auto;
+}

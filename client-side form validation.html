@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<title>Validation form practice</title>
+<meta charset="UTF-8">
+
+
+
+
+
+    </head>
+
+    <body>
+        <form>
+       <label for="password">Password (required)</label>
+       <input type="password" id="password" name="password" required minlenght="8"
+       aria-describedby="password-minlenght">
+       <button>Submit</button>
+       <div id="password-minlenght">Enter at least 8 characters</div>
+      
+       <br><lable for="animal">What is your favourite animal?</lable>
+       <input type="text" required pattern="[a-zA-Z]{3,10}" id="animal" name="animal">
+
+
+
+    </form>
+</body>
